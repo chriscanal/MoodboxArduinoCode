@@ -1,3 +1,4 @@
+//This file was written by Chis Canal and Ziad Hassan 
 // These constants won't change.  They're used to give names
 // to the pins used:
 const int analogInPin = A0;  // Analog input pin that the potentiometer is attached to
@@ -9,6 +10,7 @@ int delayTime = 6;
 int color = 1;
 
 void setup() {
+  
   // initialize serial communications at 9600 bps:
   Serial.begin(9600);
 }
